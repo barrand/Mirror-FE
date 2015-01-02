@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MirrorAndroid</string>
+    <string name="promptName">Full Name</string>
+    <string name="avatar">http://is.gd/1fI1qc</string>
+    <string name="promptAvatarUrl">enter image url</string>
+    <string name="save">save</string>
+</resources>
