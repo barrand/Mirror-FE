@@ -41,7 +41,7 @@ public class NetworkChangeReceiver extends BroadcastReceiver
     }
 
     private Boolean isMarriottLobby(String ssid, Context context){
-        if(ssid.contains("Vandalay") || ssid.contains("MIHQAssocPers") || ssid.contains("Marriott_Lobby")){
+        if(ssid.contains("Vandalay") || ssid.contains("MIHQAssocPers") || ssid.contains("Marriott_Lobby") || ssid.contains("marriottguestaccess")){
             return true;
         } else {
             return false;
